@@ -4,7 +4,7 @@ export default {
 
     if (url.pathname.startsWith("/api/")) {
       return Response.json({
-        name: "Cloudflare",
+        name: "Personal Writing API",
       });
     }
 		return new Response(null, { status: 404 });
